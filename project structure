@@ -1,0 +1,11 @@
+text-speeder-docs/
+├── README.md           ✅ Main entry point
+├── LICENSE.md          📜 Your EULA (already added)
+├── PRIVACY.md          🔐 Privacy Policy (done)
+├── /wiki or Pages
+│   ├── getting-started.md
+│   ├── keyboard-shortcuts.md
+│   ├── customization.md
+│   ├── faq.md
+│   └── roadmap.md
+└── .gitignore
