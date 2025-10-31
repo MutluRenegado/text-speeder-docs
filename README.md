@@ -79,7 +79,7 @@ Read our [Privacy Policy](https://textspeeder.info/privacy) for more details.
 
 ## 📝 License
 
-All documentation content is released under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/), unless otherwise stated.
+All rights reserved, 
 
 ---
 
