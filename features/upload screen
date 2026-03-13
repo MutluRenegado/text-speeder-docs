@@ -1,0 +1,231 @@
+# TextSpeeder Wiki
+
+## Screen 1 — Upload / Import Screen
+
+### Overview
+
+The **Upload / Import Screen** is the first working screen of TextSpeeder. Its purpose is simple: **allow users to bring text into the application quickly and easily**.
+
+Users may want to read content from many different sources such as documents, articles, notes, or books. This screen acts as a **universal gateway for importing text** into the app.
+
+The goal is to remove friction. A user should be able to open the app, add text from almost any source, and move forward in seconds.
+
+This screen **does not edit, clean, or prepare the text**. It only collects it.
+
+---
+
+# Purpose of the Upload Screen
+
+The Upload Screen is responsible for:
+
+• accepting text from different sources
+• converting the content into plain text
+• confirming that the text was successfully imported
+
+Once the text is imported, the user moves to the next screen where editing and cleaning can happen.
+
+---
+
+# Supported Ways to Add Text
+
+TextSpeeder should allow users to import text in multiple ways so that they can work with content from any source.
+
+---
+
+## Upload Documents
+
+Users can upload documents from their device. This allows them to read content from files they already have.
+
+Common supported document types include:
+
+* PDF files
+* Word documents
+* Plain text files
+
+This feature is useful for reading:
+
+* research papers
+* reports
+* essays
+* study materials
+* ebooks or document chapters
+
+Users simply choose a file and the app extracts the readable text.
+
+---
+
+## Drag and Drop Files
+
+To make uploading even faster, users can drag a file directly into the app.
+
+Instead of browsing folders, they simply drag a document onto the upload area and drop it.
+
+This makes the experience quick and intuitive, especially for desktop users.
+
+---
+
+## Paste Text
+
+Users can paste text directly from their clipboard.
+
+This is useful when copying text from:
+
+* websites
+* emails
+* online articles
+* digital notes
+* documents
+
+The user simply pastes the content and the text appears inside the app.
+
+---
+
+## Type Text Manually
+
+Some users may want to type text directly into the application.
+
+A large text area allows users to write or paste their own content.
+
+This can be useful for:
+
+* practicing reading
+* writing short notes
+* entering custom text
+
+---
+
+# Import from Web Articles
+
+Users can import text from a web page by pasting the article link.
+
+The system extracts the main content from the page and removes elements that are not part of the article.
+
+For example, the system ignores:
+
+* advertisements
+* navigation menus
+* sidebars
+* comments
+
+This allows users to quickly convert a web article into a clean reading text.
+
+---
+
+# Import from Images (OCR)
+
+Sometimes text exists inside images, such as:
+
+* photos of book pages
+* screenshots of articles
+* scanned documents
+
+The Upload Screen can extract text from these images.
+
+This allows users to turn photographed text into readable digital text inside the app.
+
+This feature is particularly helpful for students or readers who work with printed material.
+
+---
+
+# Import from YouTube Transcripts
+
+Users may also want to read the transcript of a video.
+
+By pasting a YouTube link, the system can retrieve the video’s subtitles and convert them into text.
+
+This makes it possible to read:
+
+* lectures
+* speeches
+* interviews
+* educational videos
+
+instead of watching them.
+
+---
+
+# Import from Ebook Files
+
+Some users read books in digital formats.
+
+The app can support importing ebook files so that users can load book chapters into the reading system.
+
+This allows readers to apply speed-reading techniques to ebooks.
+
+---
+
+# Demo Text Library
+
+For first-time users, the app should provide example texts.
+
+These demo texts allow users to try the reading system without needing to upload their own content.
+
+Examples might include:
+
+* famous speeches
+* short stories
+* educational passages
+
+This helps users immediately experience the app.
+
+---
+
+# Import Summary
+
+After text is imported, the app should briefly summarize the content.
+
+This might include information such as:
+
+* number of words
+* length of the text
+* estimated reading time
+
+This helps users understand the size of the material they are about to read.
+
+---
+
+# Clear or Reset
+
+Users should always be able to reset the screen.
+
+If they imported the wrong file or pasted incorrect text, they can clear the content and start again.
+
+This keeps the experience simple and forgiving.
+
+---
+
+# Continue to the Next Step
+
+Once the user is satisfied with the imported text, they can proceed to the next screen.
+
+The next screen allows them to **edit and clean the text before reading**.
+
+---
+
+# Design Philosophy
+
+The Upload Screen is designed with one principle in mind:
+
+**Bring text into the system as quickly as possible.**
+
+All editing, formatting, and reading configuration happen later in the workflow.
+
+By keeping this screen focused on **text acquisition**, the app remains simple, fast, and easy to use.
+
+---
+
+# Summary
+
+The Upload / Import Screen is the **entry point for all reading content** in TextSpeeder.
+
+It allows users to import text from:
+
+* documents
+* websites
+* images
+* videos
+* manual input
+
+By supporting many input methods, the application becomes flexible enough to handle content from almost any source.
+
+Once the text is imported, the user moves forward to the next stage where the content can be cleaned and prepared for reading.
