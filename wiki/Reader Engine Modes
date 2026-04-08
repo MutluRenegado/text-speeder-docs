@@ -1,1 +1,150 @@
+# 📚 Reader Engine Modes Documentation
 
+## 1. Standard Mode
+
+### Overview  
+Standard Mode presents text in **small grouped chunks (typically 3–5 words)**, centered on screen. It is optimized for **controlled, distraction-free reading**.
+
+### Behavior  
+- Text is split into fixed-size word groups  
+- Words appear sequentially at a controlled pace (WPM-based)  
+- No continuous motion (static transitions)  
+- User maintains visual focus on a single point  
+
+### Characteristics  
+- Stable visual anchor  
+- Predictable pacing  
+- Minimal cognitive load  
+- No scrolling required  
+
+### Use Cases  
+- Careful reading / comprehension  
+- Studying or learning material  
+- Users new to speed reading  
+- Dense or technical text  
+
+### Pros  
+- High comprehension  
+- Low eye strain  
+- Easy to follow  
+
+### Cons  
+- Slower than Flow mode  
+- Can feel mechanical  
+- Fixed chunk size may not adapt to sentence structure  
+
+---
+
+## 2. Flow Mode
+
+### Overview  
+Flow Mode displays text as a **continuous horizontal stream**, similar to a teleprompter or marquee. It is optimized for **speed and natural reading rhythm**.
+
+### Behavior  
+- Text moves continuously across the screen  
+- Speed controlled via WPM or animation timing  
+- No chunking — full sentence flow  
+- User tracks motion visually  
+
+### Characteristics  
+- Dynamic movement  
+- Natural reading simulation  
+- High-speed capability  
+- Immersive experience  
+
+### Use Cases  
+- Skimming long content  
+- Passive reading (e.g., narration-style)  
+- Familiar or simple text  
+- Speed reading practice  
+
+### Pros  
+- Faster reading speed  
+- Feels natural and fluid  
+- Better for long-form content  
+
+### Cons  
+- Lower comprehension for complex text  
+- Can cause eye fatigue  
+- Harder for beginners  
+
+---
+
+## 3. Adaptive Mode (Smart Mode)
+
+### Overview  
+Adaptive Mode is a **hybrid intelligent system** that dynamically switches between Standard and Flow modes based on **context, text length, and user behavior**.
+
+### Behavior  
+- Automatically selects reading mode:
+  - Short text → Standard  
+  - Long text → Flow  
+- Monitors user interaction:
+  - Active user → Flow mode  
+  - Idle user → Standard mode  
+- Can dynamically adjust reading speed (WPM)  
+
+### Decision Logic (Current Implementation)
+
+#### Text-Based Switching
+- `< 120 words` → Standard Mode  
+- `≥ 120 words` → Flow Mode  
+
+#### Interaction-Based Switching
+- User interaction (click/scroll) → Flow Mode  
+- No interaction (> 3 seconds) → Standard Mode  
+
+### Characteristics  
+- Context-aware  
+- Behavior-driven  
+- Seamless transitions  
+- No manual switching required  
+
+### Use Cases  
+- Default mode for most users  
+- Mixed reading sessions  
+- Productivity-focused environments  
+- “Set and forget” experience  
+
+### Pros  
+- Best overall UX  
+- Adapts to user behavior  
+- Reduces manual control friction  
+- Feels intelligent and modern  
+
+### Cons  
+- Less predictable behavior  
+- Requires tuning (thresholds, timing)  
+- Slightly more complex logic  
+
+---
+
+## 4. Mode Comparison Summary
+
+| Feature                | Standard Mode | Flow Mode | Adaptive Mode |
+|----------------------|-------------|----------|--------------|
+| Text Display         | Chunked     | Continuous | Dynamic |
+| Speed                | Medium      | High     | Variable |
+| Comprehension        | High        | Medium   | Optimized |
+| User Control         | Manual      | Manual   | Automatic |
+| Motion               | Static      | Moving   | Mixed |
+| Best For             | Study       | Speed    | General Use |
+
+---
+
+## 5. Recommended Default
+
+- **Default Mode:** Adaptive  
+- **Reason:** Provides the best balance between speed, comprehension, and usability  
+
+---
+
+## 6. Future Extensions (Planned)
+
+- AI-based difficulty detection (sentence complexity)  
+- Dynamic chunk sizing (not fixed 3–5 words)  
+- Personalized reading profiles  
+- Eye-tracking simulation (focus prediction)  
+- Auto WPM calibration per user  
+
+---
